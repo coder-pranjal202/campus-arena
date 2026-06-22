@@ -1,6 +1,7 @@
 [build]
-  publish = "campus-arena/dist"
-  command = "cd campus-arena && npm run build"
+  base = "campus-arena"
+  publish = "dist"
+  command = "npm run build"
 
 [[redirects]]
   from = "/*"
